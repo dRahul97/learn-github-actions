@@ -23,7 +23,7 @@ export default function Home({ data }) {
   );
 }
 
-export async function getStaticGeneration(context) {
+export async function getServerSideProps(context) {
   let res = await fetch(
     `https://api.github.com/search/repositories?q=dRahul97`
   );
