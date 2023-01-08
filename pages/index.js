@@ -13,7 +13,7 @@ export default function Home({ data }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main style={{ border: "4px solid black", height: "1000px" }}>
-        <h1 align="center">! Homepage Oye Hoye !</h1>
+        <h1 align="center">! Homepage hain</h1>
         {console.log(data)}
         {data.items.map((e) => {
           <div>{e}</div>;
